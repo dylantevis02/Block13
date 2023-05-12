@@ -1,3 +1,6 @@
+// Is Truthy Problem
+
+
 function isTruthy(value){
 
 if (value === "string"){
@@ -32,70 +35,74 @@ isTruthy(0)
 isTruthy(" ")
 
 
+
+
 //Numberline problem
 
-// function numberLine(num1, num2){
-//     if (num1 + num2 < -1000){
-//         let sum = num1 + num2
-//         console.log(sum + " is less than -1000")
-//     } else if (num1 + num2 < 0){
-//         let sum = num1 + num2
-//         console.log(sum + " is a negative number")
-//     } else if (num1 + num2 == 0){
-//         let sum = num1 + num2
-//         console.log(sum + ' is equal to 0')
-//     } else if (num1 + num2 > 0 && num1 + num2 < 99){
-//         let sum = num1 + num2
-//         console.log(sum + ' is greater than 0')
-//     } else if (num1 + num2 > 100){
-//         let sum = num1 + num2
-//         console.log(sum + ' is greater than 100')
-//     } else {
-//         console.log('Unexpected error')
-//     }
-// }
+function numberLine(num1, num2){
+    if (num1 + num2 < -1000){
+        let sum = num1 + num2
+        console.log(sum + " is less than -1000")
+    } else if (num1 + num2 < 0){
+        let sum = num1 + num2
+        console.log(sum + " is a negative number")
+    } else if (num1 + num2 == 0){
+        let sum = num1 + num2
+        console.log(sum + ' is equal to 0')
+    } else if (num1 + num2 > 0 && num1 + num2 < 99){
+        let sum = num1 + num2
+        console.log(sum + ' is greater than 0')
+    } else if (num1 + num2 > 100){
+        let sum = num1 + num2
+        console.log(sum + ' is greater than 100')
+    } else {
+        console.log('Unexpected error')
+    }
+}
 
-// numberLine(50, 51)
-// numberLine(99, -2)
-// numberLine(0, 101)
-// numberLine(500, -500)
-// numberLine(-1000, 0)
-// numberLine(-5, 0)
+numberLine(50, 51)
+numberLine(99, -2)
+numberLine(0, 101)
+numberLine(500, -500)
+numberLine(-1000, 0)
+numberLine(-5, 0)
 
 
 
 
 //Greater than 5 Problem
 
-// function greaterThanOrEqualToFive(val1, val2){
-//     if(val1 >= 5 && val2 >= 5){
-//         console.log('True')
-//     } else {
-//         console.log('false')
-//     }
-// }
+function greaterThanOrEqualToFive(val1, val2){
+    if(val1 >= 5 && val2 >= 5){
+        console.log('True')
+    } else {
+        console.log('false')
+    }
+}
 
-// greaterThanOrEqualToFive(5, 6)
-// greaterThanOrEqualToFive(10, 11)
-// greaterThanOrEqualToFive(0, 0)
-// greaterThanOrEqualToFive(1000, -1000)
-// greaterThanOrEqualToFive(6, 4)
-// greaterThanOrEqualToFive(5, 5)
+greaterThanOrEqualToFive(5, 6)
+greaterThanOrEqualToFive(10, 11)
+greaterThanOrEqualToFive(0, 0)
+greaterThanOrEqualToFive(1000, -1000)
+greaterThanOrEqualToFive(6, 4)
+greaterThanOrEqualToFive(5, 5)
+
+
 
 
 // Pair and Compare Problem
 
-// function pairAndCompare(param1A, param1B, param2A, param2B){
-//     if (param1A == param1B && param2A == param2B){
-//         console.log("true")
-//     } else {
-//         console.log('false')
-//     }
-// }
+function pairAndCompare(param1A, param1B, param2A, param2B){
+    if (param1A == param1B && param2A == param2B){
+        console.log("true")
+    } else {
+        console.log('false')
+    }
+}
 
-// pairAndCompare("cat", "cat", 6, "6")
-// pairAndCompare("five", 5 , "dog", "dawg")
-// pairAndCompare( 0, false, "horse", "horse")
-// pairAndCompare("eight", "eight", "ate", "ate")
-// pairAndCompare(11, "eleven", "four", "for")
-// pairAndCompare("cake", "cake", "pie", "pie")
+pairAndCompare("cat", "cat", 6, "6")
+pairAndCompare("five", 5 , "dog", "dawg")
+pairAndCompare( 0, false, "horse", "horse")
+pairAndCompare("eight", "eight", "ate", "ate")
+pairAndCompare(11, "eleven", "four", "for")
+pairAndCompare("cake", "cake", "pie", "pie")
